@@ -55,10 +55,14 @@ body {
   transition: all 0.3s linear;
 }
 
-@media screen and (min-width: 600px)  {
+@media screen and (min-width: 500px)  {
   .sidebar {
     width: 350px;
   }
+}
+
+.show {
+  transform: translate(0);
 }
 
 .holder {
